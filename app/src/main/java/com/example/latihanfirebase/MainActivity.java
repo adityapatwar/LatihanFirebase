@@ -167,6 +167,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnDelete.setOnClickListener (new View.OnClickListener () {
+            @Override
+            public void onClick(View view) {
+                deleteArtist (artistID);
+                ad.dismiss ();
+            }
+        });
+
     }
 
     private void deleteArtist(String id){
