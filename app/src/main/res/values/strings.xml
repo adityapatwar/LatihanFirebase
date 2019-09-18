@@ -1,0 +1,9 @@
+<resources>
+    <array name="Genres">
+        <item>Dangdut</item>
+        <item>Pop</item>
+        <item>Wibu</item>
+        <item>K-Pop</item>
+    </array>
+    <string name="app_name">LatihanFirebase</string>
+</resources>
